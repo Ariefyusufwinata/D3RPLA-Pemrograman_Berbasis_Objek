@@ -17,9 +17,6 @@ public class Main extends Function {
         System.out.print("Password : ");
         String authPas = in.nextLine();
 
-//        String authUser = "admin";
-//        String authPas = "admin";
-
         if(authUser.equals("admin") && authPas.equals("admin")){
             System.out.println("Halo, Admin");
             System.out.println("=+=+=+= Selamat Datang Di ReaserchLAB =+=+=+=");
@@ -52,3 +49,11 @@ public class Main extends Function {
         }
     }
 }
+/**        
+String authUser = "admin";
+String authPas = "admin";
+
+___Login___
+user = admin
+password = admin
+**/        
